@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rawaa Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Rawaa Store</h1>
+        <nav class="nav">
+          <ul>
+            <li><a href="admin.html">Admin Dashboard</a></li>
+          </ul>
+        </nav>
+      </header>
+  <main class="main-content">
+    <section id="product-list" class="product-list">
+      <!-- Products will be dynamically rendered here -->
+    </section>
+
+   
+
+    <section id="stripe-payment-section" class="stripe-payment-section">
+      <h2>Make Payment</h2>
+      <form id="stripe-payment-form" class="stripe-payment-form">
+        <div id="card-element" class="card-element">
+          <!-- Stripe's card fields will be inserted here -->
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Simple Store. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://js.stripe.com/v3/"></script>
+  <script src="script.js"></script>
+</body>
+</html>
