@@ -55,6 +55,10 @@ Ensure you have the following installed:
    ```bash
    npx prisma migrate dev --name init
    ```
+B-
+
+to open prisma database : npx prisma studio in backend terminal 
+
 
 6. Start the backend server:
    ```bash
